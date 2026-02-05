@@ -1,0 +1,14 @@
+{
+    "id": "pokedex",
+    "name": "Pokédex Ultimate",
+    "version": "1.0.0",
+    "author": "Pixelmon Europe",
+    "description": "Un Pokédex complet intégrant les Pokémon, Méga-Évolutions, Gigantamax et formes personnalisées.",
+    "url": "https://votre-site.fr",
+    "icon": "fa fa-paw",
+    "azuriom_version": ">=1.2.0",
+    "azuriom_api": "1.0.0",
+"providers": [
+        "Azuriom\\Plugin\\Pokedex\\Providers\\PokedexServiceProvider"
+    ]
+}

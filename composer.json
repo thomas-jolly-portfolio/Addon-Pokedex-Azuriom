@@ -1,0 +1,19 @@
+{
+    "name": "pixelmon-europe/pokedex",
+    "description": "Un Pokédex complet pour Azuriom.",
+    "type": "azuriom-plugin",
+    "require": {
+        "azuriom/azuriom-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Azuriom\\Plugin\\Pokedex\\": "src/"
+        }
+    },
+    "extra": {
+        "azuriom": {
+            "id": "pokedex",
+            "name": "Pokédex Ultimate"
+        }
+    }
+}
